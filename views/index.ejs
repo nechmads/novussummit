@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <%- include('components/header'); %>
+</head>
+<body class="slides zen animated">
+
+<%- include('components/svg_library'); %>
+
+<%- include('components/navbar'); %>
+
+<%- include('components/menu'); %>
+
+
+<%- include('slides/home/intro'); %>
+<%- include('slides/home/about'); %>
+<%- include('slides/home/speakers'); %>
+<%- include('slides/home/apply'); %>
+
+<%- include('components/bottom_panel'); %>
+
+
+<!-- Preloader -->
+<div class="loadingIcon"><svg class="loading-icon" id="loading-circle" viewBox="0 0 18 18"><circle class="circle" opacity=".1" stroke="#fff" stroke-width="2" stroke-miterlimit="10" cx="9" cy="9" r="8" fill="none"></circle><circle class="dash" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" stroke-dasharray="1,100" cx="9" cy="9" r="8" fill="none"></circle></svg></div>
+<%- include('components/scripts'); %>
+</body>
+</html>
