@@ -12,6 +12,9 @@ p {
 .firstSlide .bottomNav {
   display: table-cell !important; }
 
+.button, .panel, .slides {
+  font-family: 'Open Sans', sans-serif !important; }
+
 .social a img {
   width: 45px;
   height: 45px; }
