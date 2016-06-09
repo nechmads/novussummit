@@ -8,7 +8,13 @@ p {
 
 .siteHeader {
   font-family: 'Raleway', sans-serif;
-  font-size: px; }
+  font-weight: 800;
+  letter-spacing: 30px;
+  display: none; }
+
+.siteSubHeader {
+  padding-top: 20px;
+  display: none; }
 
 .bottomNav {
   display: none !important; }
@@ -23,15 +29,27 @@ p {
   width: 45px;
   height: 45px; }
 
+.introbg {
+  background-image: url(/images/homebg.jpg); }
+
 @media only screen and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   p {
     font-size: 18px; }
 
   .social {
-    display: none; } }
+    display: none; }
+
+  .introbg {
+    background-image: url(/images/homebg_notext.jpg); }
+
+  .siteHeader, .siteSubHeader {
+    display: block; } }
 @media only screen and (min-device-width: 668px) {
   #mobileIntro {
     display: none; } }
+.introContainer {
+  padding-top: 0px !important; }
+
 /* change panel top on scroll * white */
 .page-loaded .slides:not(.firstSlide) .panel.top {
   background: rgba(28, 28, 28, 0.925);

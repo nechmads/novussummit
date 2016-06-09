@@ -10,7 +10,14 @@ p {
 
 .siteHeader {
   font-family: 'Raleway', sans-serif;
-  font-size: 110px;
+  font-weight: 800;
+  letter-spacing: 30px;
+  display: none;
+}
+
+.siteSubHeader {
+  padding-top: 20px;
+  display: none;
 }
 
 .bottomNav {
@@ -35,6 +42,10 @@ p {
   }
 }
 
+.introbg {
+  background-image:url(/images/homebg.jpg);
+}
+
 @media only screen
 and (max-device-width: 667px)
 and (-webkit-min-device-pixel-ratio: 2) {
@@ -45,6 +56,14 @@ and (-webkit-min-device-pixel-ratio: 2) {
   .social {
     display: none;
   }
+
+  .introbg {
+    background-image:url(/images/homebg_notext.jpg);
+  }
+
+  .siteHeader, .siteSubHeader {
+    display: block;
+  }
 }
 
 @media only screen
@@ -53,6 +72,10 @@ and (min-device-width: 668px)
   #mobileIntro {
     display: none;
   }
+}
+
+.introContainer {
+  padding-top: 0px !important;
 }
 
 /* change panel top on scroll * white */
