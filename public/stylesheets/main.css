@@ -6,6 +6,10 @@ p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px; }
 
+.siteHeader {
+  font-family: 'Raleway', sans-serif;
+  font-size: px; }
+
 .bottomNav {
   display: none !important; }
 
