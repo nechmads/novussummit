@@ -79,8 +79,9 @@ p {
   font-size: 14px; }
 
 .speakerImage {
-  width: 243px;
-  height: 162px; }
+  width: 200px;
+  height: 200px;
+  border-radius: 50%; }
 
 .navApply {
   padding: 8px 16px !important;
