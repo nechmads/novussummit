@@ -19,8 +19,9 @@ p {
 .bottomNav {
   display: none !important; }
 
-#navLogo {
-  height: 35px; }
+#navlogo {
+  height: 20px;
+  width: 20px; }
 
 #applyLogo {
   width: 30%;
