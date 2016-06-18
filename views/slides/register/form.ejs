@@ -81,24 +81,4 @@
         </div>
     </div>
     <div class="background" style="background-image:url(/images/ga.jpg)"></div>
-    <script>
-        function makeid()
-        {
-            var text = "";
-            var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
-            for( var i=0; i < 5; i++ )
-                text += possible.charAt(Math.floor(Math.random() * possible.length));
-
-            return text;
-        }
-
-        var codes = [];
-        for (var x = 0; x < 500; x++){
-            codes.push(makeid());
-        }
-
-        console.log(codes);
-
-    </script>
 </section>
