@@ -1,9 +1,22 @@
 var express = require('express');
 var router = express.Router();
 
+var specialInviteCodes = ["dXV9V","8yBE0","OTVzE","MVe9w","4hMut","m1Lhr","pJ4PC","WWmuD","K00Ys","rEZSJ","YjfkS","4fRbA","7KaJ1","CKVMF","BtGoH","586Gi","OhMzG","cn2Zf","ERyAr","hTHiU","beEdD","uGale","axOIS","aJbAP","d1zvL","PIpBm","QiLRq","KMvPR","SUFs8","CrJAo","1zRUK","e1Tpx","DSEF7","KAErB","MRBiL","rL4QE","zNbb9","y9xhd","2Y9HG","OMlKj","iEHss","9R0gn","KTeix","vkiRm","W27Ks","O6LCw","87Vu9","Aj4jQ","SyCN4","mFgSz","sGsP5","m4bfF","AFFLe","iLjr9","hxe9m","wRU9a","NCGvh","Xt3sB","5rM4F","s0zOB","y44sR","mmgGw","X5Tzu","ENoQ6","NZ7Kt","LtyY7","Mdywj","fzIIX","huD6Q","vDsp1","b2N1d","t9ie6","GcSPk","EzvcP","ke1CN","24rNG","ExClU","1nhCB","Czw6C","WnvLn","7oQ9t","aAkTv","gDtuE","FWZbK","CMRLG","jPkXw","GlZzy","wXQxt","DyhSm","SxZC1","VhOBQ","0Wt1y","cyaNs","uWghD","vG8Hd","Ab17A","LxxDn","kXWk8","8szqk","iGzYU","si20t","rAzDx","nLW4H","yJLnj","dH3Cd","m3FEA","9Dnzp","TXHdg","0ygmQ","S8Ktt","KKV7Q","4gP5R","0689n","AZejj","ITqPn","2myFb","V93rY","PnVFM","hWZUn","wAoyZ","1VGNa","rvE1y","TEB28","hf7Jd","JMAMK","16l7d","yPhlg","Pzifm","lzkSF","iSjKR","1lQxB","6BQog","75Vce","1qelt","KCrSC","UI7ko","Z28cf","VfKqs","2d5Ve","M9nBc","V6yCy","Sv6Ai","vjXmF","zKxy4","ucJzN","ITAbN","tksLE","G5W6H","VQSts","WDzy4","QHgLN","uwaWw","qCkMk","mUwIF","3UOAL","Nd3mv","1wLm1","C9ntO","oD4Yf","hOf22","Rasnc","LIE4C","aQteZ","mEltQ","JO8oP","GgRv6","PkAjC","lg399","ji7xr","r80I5","YzUAt","JR9AY","1etV6","aQM1B","UmUYb","8lZbD","kytLI","uiH54","TGO6m","LwbI4","goOlK","j2zXT","WdUC4","YeGtT","CWf0S","uTkyt","BXhol","Ydqva","ATCoQ","DE6Gx","Kr2iC","NMV0r","KAy5X","sQPwh","JOfhH","zOFnA","g04Qh","aQQbJ","B7LRF","EGgdb","lgMGg","juZsj","rSgV9","eF1Sk","9kx1t","jurX7","eptrp","zkmUa","vgcPn","oowoJ","CM9zh","y76oZ","8DggO","i7dIp","ffBX7","6Vufr","GimMK","lDiOt","5XuFX","t0wfp","xRpYZ","oLbgL","4LnUq","0FXAM","t9Ewd","yuBmQ","t9XYW","2ioMb","rEowd","XAVOe","maLRm","RtruO","GrlPO","Jj2HR","fBWpR","BP4X5","X8OxH","v9VXh","MEItb","1pJag","sKsPa","Wp72c","0Pqnd","4xjoC","ME6ez","onX8Z","nMBPj","6cjXz","YJeXn","lAKo3","Fa8ZA","Dz2az","TE0Sg","mWz0c","LL2mt","4lSkq","g2kb7","uNBN3","p6HUc","9Alov","0ol9Q","UOheg","41nso","8sls0","aFB3N","x3sdr","vqfbN","GfaIB","yR0MQ","R4Lix","0jx72","3cSmY","iSOIN","3kVhC","hJhVA","45Dc5","PVErG","xiFLd","RWbGv","1P0gK","PCVjL","m4irZ","hKFa0","verkP","3Us2j","4Rz6e","2GTMJ","3XQxV","oOnCA","oAkNd","LC7t1","Aswyh","a1jUQ","Zi7Hh","CHTkC","OvOcS","0CZoo","7C0Fe","ZjzDY","aX1j3","Nkaxo","2Gs3x","bS9E1","C4pJJ","JbnMp","YhKOE","yTM0E","jT2oU","rKWFC","9ji3G","kwH4y","wJ9mY","iBGsZ","sKAEW","fJfT1","niKRS","5E6jz","WqoeG","N8YVL","jcJSN","SCiC3","EL7w5","QO4Bf","kVahz","RuAaq","Ll7Er","wNRpt","8U4XJ","Whicv","qLHpF","8VXTQ","JsfIf","JyxVq","Y8pfT","0ILwO","ASQxj","aezy3","EwYP5","js8jU","kYilM","MUqyZ","VRQEu","oKfch","x5K59","ieiHg","56lHv","sEzXK","rz4x2","EQrNZ","06OeK","B0xSS","YWf99","Noyw0","CgVgh","lGCil","i4nKT","FFoUN","QhEs3","aIeFH","L5mtB","MUHdy","sCM4W","wltEl","LVK7S","tYWRx","8tP6J","p54nT","i65Wi","T7JZV","zT6xE","hVBWy","UEtqW","rJdkJ","2rDi8","2zybf","SQzUL","aFtUU","CN9yT","K7OTf","8gQ6q","8s6jc","gfp2x","IV9hL","8fBrE","RvGRK","x8yiy","OlQcG","EJjtX","MMIo3","aIcFu","oQQZl","afZUh","ZNHA6","CNMjR","e5z9W","JFJB6","RjD61","PK2pI","MC1ha","h2gCJ","pH8tW","PIk0E","QlWF3","05Ks4","6o7N2","5lTM1","8kFkS","O3CNy","a10ME","G1MQZ","0hFvh","MP0I4","yLX5l","mi0KI","gmx6c","kFKT8","LtCvJ","6i0Di","3FOm3","Sn9RW","Uf74Q","TO40J","62xEC","RlqbF","B8zHV","0r8WW","ueq40","KjWC4","tpQBv","GqDf8","UKcRi","XyvDW","mGPBA","y9w5x","mn8qg","jqphG","tSSv1","hfGth","BbmhD","KahfI","ZeL1e","yZ3XR","3ceqV","7K8Mi","1azID","d87RK","EKiay","Jma54","g8EPc","pxx5G","TyWGv","GcQiB","xjG7Y","WBTOn","j53xa","450QH","zDFnd","qOnay","yVno0","EPpuC","34lXa","haD9w","7K9gk","agnUK","sUz8V","8JAOK","Rhrer","Sp9hj","4qeSz","4z1DQ","2Bo1g","KxCDX","PIwqm","TorNB","5HKNM","rOvz4","cL4a3","6o5LB","Qkx5A","N4PVQ","FzNlN","340IL","mTBT2","jS44Q","WebNo","rn2Us","K6h4L","tHzfD","z5mGR","NGb7W","c1Mt9","o2Vms","eaAho","dijxH","pTNc5","RJrK7","nrNkq","BwedO","nVddc","PbNGz"];
+
 /* GET home page. */
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Novus Summit' });
+});
+
+router.get('/register', function(req, res, next) {
+
+  var registrationCode = req.query.code;
+
+  if (specialInviteCodes.indexOf(registrationCode) > -1) {
+    res.render('register', {title: 'Novus Summit'});
+  } else {
+    res.render('invalid_code', {title: 'Novus Summit'});
+  }
 });
 
 module.exports = router;

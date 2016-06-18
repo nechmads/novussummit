@@ -107,4 +107,11 @@ p {
 .btnContact {
   background-color: #70491C !important; }
 
+.registerForm {
+  color: black; }
+  .registerForm form {
+    font-size: 16px !important; }
+    .registerForm form label {
+      margin: 5px; }
+
 /*# sourceMappingURL=main.css.map */
