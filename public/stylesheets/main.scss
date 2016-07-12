@@ -110,6 +110,17 @@ and (min-device-width: 668px)
   }
 }
 
+.citygala {
+  margin-top: 100px;
+  font-size: 16px;
+  text-decoration: underline;
+
+  img {
+    margin-top: 20px;
+    max-height: 100px
+  }
+}
+
 .aboutContent {
  background-color: rgba(0, 0, 0, 0.58);
   padding: 10px;
