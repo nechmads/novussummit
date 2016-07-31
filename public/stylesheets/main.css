@@ -10,11 +10,20 @@ p {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   letter-spacing: 30px;
-  display: none; }
+  font-size: 160px; }
 
 .siteSubHeader {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
   padding-top: 20px;
-  display: none; }
+  color: #dd953c;
+  font-size: 40px; }
+
+.siteSubSubheader {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  padding-top: 20px;
+  font-size: 20px; }
 
 .bottomNav {
   display: none !important; }
@@ -38,7 +47,7 @@ p {
   height: 45px; }
 
 .introbg {
-  background-image: url(/images/homebg.jpg); }
+  background-image: url(/images/homebg_notext.jpg); }
 
 @media only screen and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
   p {
@@ -51,12 +60,35 @@ p {
     background-image: url(/images/homebg_notext.jpg); }
 
   .siteHeader, .siteSubHeader {
-    display: block; } }
+    display: block; }
+
+  .siteHeader {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    letter-spacing: 30px;
+    font-size: 50px; }
+
+  .siteSubHeader {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    padding-top: 20px;
+    color: #dd953c;
+    font-size: 30px; }
+
+  .siteSubSubheader {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    padding-top: 20px;
+    font-size: 20px; } }
 @media only screen and (min-device-width: 668px) {
   #mobileIntro {
     display: none; } }
 .introContainer {
-  padding-top: 0px !important; }
+  padding-top: 100px !important; }
+
+.btnPlay {
+  background-color: #dd953c !important;
+  color: #fff !important; }
 
 /* change panel top on scroll * white */
 .page-loaded .slides:not(.firstSlide) .panel.top {
